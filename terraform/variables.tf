@@ -13,3 +13,4 @@ locals {
   root_domain_name = "vajeh.artronics.me.uk"
   domain_name = "${local.environment}.${local.service}.${local.root_domain_name}"
 }
+
